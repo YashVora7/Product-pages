@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="media.css">
+    <style>
+        img{
+            width: 350px;
+            margin: 5px;
+        }
+        form{
+            text-align: center;
+            margin: auto;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body> 
+    <form id="form">
+        <legend>Product</legend>
+        <fieldset>
+            
+                <input type="url" id="img" placeholder="Image">
+            
+                <input type="text" id="title" placeholder="Title">
+            
+                <input type="text" id="price" placeholder="Price">
+            
+                <input type="text" id="category" placeholder="Category">
+                
+                <button>SUBMIT</button>
+        </fieldset>
+    </form>
+
+    <button id="lth">Low to High</button>
+    <button id="htl">High to Low</button>
+
+    <div id="uiprinter">
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
